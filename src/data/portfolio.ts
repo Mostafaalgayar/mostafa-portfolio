@@ -16,6 +16,7 @@ export const skills = [
   { name: "JavaScript", category: "Core" },
   { name: "TypeScript", category: "Core" },
   { name: "React", category: "Frameworks" },
+  { name: "Next.js", category: "Frameworks" },
   { name: "Tailwind CSS", category: "Styling" },
   { name: "Bootstrap", category: "Styling" },
   { name: "React Hook Form", category: "Tools" },
@@ -62,12 +63,12 @@ export const projects: Project[] = [
   },
   {
     number: "03",
-    name: "Real Estate Dashboard",
-    type: "Dashboard UI",
+    name: "E-Commerce Store",
+    type: "E-Commerce Application",
     description:
-      "A dashboard concept for presenting and organizing real-estate project information, residential units, and property details.",
-    stack: ["React", "TypeScript", "Tailwind CSS"],
-    status: "Selected work",
+      "An e-commerce application planned to cover product browsing, cart, and checkout, with a clean and responsive storefront.",
+    stack: ["React", "TypeScript", "Tailwind CSS", "REST API"],
+    status: "Planned / In progress",
     accent: "blue",
   },
 ];
