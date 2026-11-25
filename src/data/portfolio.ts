@@ -67,7 +67,7 @@ export const projects: Project[] = [
     type: "E-Commerce Application",
     description:
       "An e-commerce application planned to cover product browsing, cart, and checkout, with a clean and responsive storefront.",
-    stack: ["React", "TypeScript", "Tailwind CSS", "REST API"],
+    stack: ["Next.js", "TypeScript", "Tailwind CSS", "REST API"],
     status: "Planned / In progress",
     accent: "blue",
   },
